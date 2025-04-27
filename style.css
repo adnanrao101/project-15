@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* ====================================Navbar Start===================================== */
+
 section{
     width: 100%;
     height: 650px;
@@ -79,7 +81,7 @@ a:hover{
     overflow: hidden; /* To hide the elements when they are out of view */
 }
 
-h2, h1 {
+#nav-h2, #nav-h1 {
     font-size: 50px;
     position: relative;
     opacity: 0; /* Initially invisible */
@@ -87,16 +89,16 @@ h2, h1 {
     transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition */
 }
 
-h1 {
+#nav-h1 {
     transform: translateX(100%); /* Initially position h1 off to the right */
 }
 
-.div2:hover h2 {
+.div2:hover #nav-h2 {
     transform: translateX(0); /* Bring h2 to the normal position (from left) */
     opacity: 1; /* Make h2 visible */
 }
 
-.div2:hover h1 {
+.div2:hover #nav-h1 {
     transform: translateX(0); /* Bring h1 to the normal position (from right) */
     opacity: 1; /* Make h1 visible */
 }
@@ -124,3 +126,130 @@ h2{
 h1{
     font-size: 50px;
 } */
+
+/* ====================================Navbar End===================================== */
+
+
+/* =====================================About Section Start===================================== */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.div3{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#div3-h3{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid goldenrod;
+}
+
+.div4{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.mdiv2{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mdiv2-img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+
+.mdiv3{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#mdiv2-h3{
+    color: rgb(238, 236, 236);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#mdiv2-h2{
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+}
+
+#mdiv2-p{
+    color: silver;
+}
+
+/* =====================================About Section End===================================== */
+
+
+/* ====================================Service Section Start===================================== */
+
+
+#container2{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.div5{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#div5-h3{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid goldenrod;
+}
+
+.div6{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.mdiv4{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(97, 96, 96);
+}
+
+.div7{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+/* ====================================Service Section End===================================== */
