@@ -206,13 +206,13 @@ h1{
 
 
 #container2{
-    width: 100%;
+    
     height: 100vh;
     background-color: gray;
 }
 
 .div5{
-    width: 100%;
+    
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -227,7 +227,7 @@ h1{
 }
 
 .div6{
-    width: 100%;
+    
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -243,13 +243,36 @@ h1{
 }
 
 .div7{
-    width: 100%;
+    
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 
+}
+
+.mdiv4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#div6-i{
+    color: goldenrod;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#div6-h3{
+    color: rgb(221, 214, 214);
+    padding-bottom: 10px;
+}
+
+#div6-p{
+    color: silver;
 }
 
 /* ====================================Service Section End===================================== */
