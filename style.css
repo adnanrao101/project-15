@@ -433,3 +433,86 @@ h1{
 
 
 /* ====================================Skills Section End=====================================  */
+
+/* ====================================Certification Section Start=====================================  */
+
+
+
+#certificate{
+    height: 120vh;
+    background-color: rgb(49, 49, 49);
+}
+
+.div12{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#div12-h3{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid goldenrod;
+}
+
+#container4{
+    display: flex;
+    flex-direction: column;
+}
+
+.div13{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.div14{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mdiv6{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(97, 96, 96);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mdiv6::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: gold;
+    transition: width 0.3s ease;
+}
+
+.mdiv6:hover::after {
+    width: 100%;
+}
+
+#div13-img{
+    width: 280px;
+    height: 250px;
+}
+
+#div13-h3{
+    color: rgb(221, 214, 214);
+    padding-top: 20px;
+    
+}
+
+
+/* ====================================Certification Section End=====================================  */
