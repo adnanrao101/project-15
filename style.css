@@ -591,3 +591,69 @@ input{
 }
 
 /* ====================================Contact Section End=====================================  */
+
+
+/* ====================================Footer Section Start=====================================  */
+
+#footer{
+    width: 100%;
+    height: 40vh;
+    background-color: silver;
+}
+
+#container5{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+.fdiv1{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#footer-i{
+    color: goldenrod;
+    padding: 10px 0;
+}
+
+.footer-h4{
+    color: white;
+    padding: 10px 0;   
+}
+
+.footer-p{
+    color: silver;
+}
+
+#container6{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fdiv2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.fdiv2:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+#icon{
+    margin-top: 10px;
+}
+
+/* ====================================Footer Section End=====================================  */
