@@ -521,7 +521,7 @@ h1{
 
 #contact{
     height: 100vh;
-    background-color: rgb(49, 49, 49);
+    background-color: gray;
 }
 
 .div15{
@@ -558,8 +558,10 @@ form{
 input{
     width: 500px;
     height: 30px;
-    background-color: rgba(128, 128, 128, 0.274);
+    background-color: rgba(49, 49, 49);
     border: none;
+    outline: none;
+    color: white;
     /* position: relative;
     transition: 0.3s ease; */
 }
@@ -571,8 +573,10 @@ input{
 #message{
     width: 500px;
     height: 80px;
-    background-color: rgba(128, 128, 128, 0.274);
+    background-color: rgba(49, 49, 49);
     border: none;
+    outline: none;
+    color: white;
 }
 
 #contact-button{
@@ -657,3 +661,8 @@ input{
 }
 
 /* ====================================Footer Section End=====================================  */
+
+
+/* ====================================FOR RESPONSIVE=====================================  */
+/* ====================================FOR RESPONSIVE=====================================  */
+/* ====================================FOR RESPONSIVE=====================================  */
